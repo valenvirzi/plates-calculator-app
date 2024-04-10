@@ -1,10 +1,10 @@
 // TODO: import { Link } from "react-router-dom";
 
-const NavItem = () => {
+const NavItem = ({ title, svg }) => {
   return (
     <div>
-      <img className="w-4" src="./calculator.svg" alt="Calculator"></img>
-      <h3 className="text-base">Calculator</h3>
+      <img className="w-4" src={`./${svg}.svg`} alt={`${title}`}></img>
+      <h3 className="text-base">{title}</h3>
     </div>
   );
 };
