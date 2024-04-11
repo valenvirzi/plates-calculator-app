@@ -10,7 +10,7 @@ const NavBar = () => {
     { title: "Settings", svg: "settings", path: "/settings" },
   ];
   return (
-    <nav className="flex flex-row gap-2 h-8">
+    <nav className="flex flex-row justify-between items-center px-12 py-9 absolute left-0 right-0 bottom-0 bg-sky-500">
       {SECTIONS.map((section) => {
         return (
           <Link key={section.svg} to={section.path}>
@@ -18,7 +18,6 @@ const NavBar = () => {
           </Link>
         );
       })}
-      {/* <NavItem section={SECTIONS[0]} /> */}
     </nav>
   );
 };

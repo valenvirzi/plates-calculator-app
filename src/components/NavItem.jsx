@@ -2,9 +2,10 @@
 
 const NavItem = ({ title, svg }) => {
   return (
-    <div>
-      <img className="w-4" src={`./${svg}.svg`} alt={`${title}`}></img>
-      <h3 className="text-base">{title}</h3>
+    <div className="flex flex-col items-center gap-2 hover:text-white ">
+      {/* TODO: Find a way to change SVG's color on active,hover,etc. */}
+      {svg}
+      <h3 className="text-lg">{title}</h3>
     </div>
   );
 };
