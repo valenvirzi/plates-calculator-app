@@ -154,14 +154,14 @@ const NavItem = ({ title, svg }) => {
   return (
     <div className="flex flex-col items-center gap-2 hover:text-white group">
       {svg}
-      <h3 className="text-lg">{title}</h3>
+      <h3 className="text-lg font-medium">{title}</h3>
     </div>
   );
 };
 
 NavItem.propTypes = {
   title: PropTypes.string.isRequired,
-  svg: PropTypes.element.isRequired,
+  svg: PropTypes.string.isRequired,
 };
 
 export default NavItem;
