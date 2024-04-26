@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar";
 
 const Root = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Outlet />
       <NavBar />
     </div>
