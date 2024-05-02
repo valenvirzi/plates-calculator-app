@@ -1,7 +1,9 @@
+import Header from "../components/Header";
+
 const Equipment = () => {
   return (
-    <div className="bg-black min-h-screen w-full flex flex-col items-center">
-      <h1 className="text-white">Equipment</h1>
+    <div className="bg-black h-full w-full flex flex-col items-center justify-between pb-12">
+      <Header title="Equipment" />
       {/* TODO: Start making the main pages for the app */}
     </div>
   );
