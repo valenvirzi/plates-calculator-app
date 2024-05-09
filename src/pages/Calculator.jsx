@@ -3,7 +3,7 @@ import Header from "../components/Header.jsx";
 
 const Calculator = () => {
   return (
-    <div className="flex h-full w-full flex-col items-center bg-black pb-40">
+    <div className="flex min-h-full w-full flex-col items-center bg-black pb-44">
       <Header title="Calculator" />
       {/* TODO: Start making the main pages for the app */}
       <div className="flex h-full w-full flex-col items-center justify-between py-8">
