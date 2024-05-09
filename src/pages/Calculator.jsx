@@ -8,7 +8,10 @@ const Calculator = () => {
       {/* TODO: Start making the main pages for the app */}
       <main className="flex h-screen w-full flex-col items-center justify-around pb-44 pt-24">
         <form className="flex flex-col gap-1" name="weightForm">
-          <label className="text-sm text-white" htmlFor="desiredWeight">
+          <label
+            className="text-sm text-white md:text-base"
+            htmlFor="desiredWeight"
+          >
             Desired Weight:
           </label>
           <div className="flex items-center gap-3">
@@ -17,7 +20,7 @@ const Calculator = () => {
               placeholder="Enter your desired weight"
               name="desiredWeight"
               id="desiredWeight"
-              className="remove-arrow flex items-center justify-center rounded-sm px-2 py-1 text-center"
+              className="remove-arrow flex items-center justify-center rounded-sm px-2 py-1 text-center md:px-4 md:py-2 md:text-lg"
             />
             <button
               type="button"
@@ -25,7 +28,7 @@ const Calculator = () => {
               className="group rounded-sm border-none bg-sky-500 p-1 hover:animate-[spin_300ms_ease] hover:bg-white"
             >
               <svg
-                className="h-6 w-6"
+                className="h-6 w-6 md:h-9 md:w-9"
                 width="800px"
                 height="800px"
                 viewBox="0 0 24 24"

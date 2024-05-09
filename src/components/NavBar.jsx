@@ -11,7 +11,7 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 flex h-40 flex-row items-center justify-between bg-sky-500 px-4 py-9 max-md:h-24 max-md:gap-2 max-md:py-4 md:px-12">
+    <nav className="fixed bottom-0 left-0 right-0 z-50 flex h-24 flex-row items-center justify-between gap-2 bg-sky-500 px-4 py-4 md:h-32 md:px-12 md:py-9 lg:h-36">
       {SECTIONS.map((section) => {
         return (
           <Link key={section.svg} to={section.path}>

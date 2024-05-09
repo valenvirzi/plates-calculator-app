@@ -5,7 +5,7 @@ const NavItem = ({ title, svg }) => {
     case "equipment": {
       svg = (
         <svg
-          className="h-10 w-10 fill-black  group-hover:fill-white max-md:h-8"
+          className=" h-8 w-8 fill-black group-hover:fill-white md:h-10 md:w-10"
           width="800px"
           height="800px"
           viewBox="0 0 24 24"
@@ -39,7 +39,7 @@ const NavItem = ({ title, svg }) => {
     case "graphs": {
       svg = (
         <svg
-          className="h-10 w-10 stroke-black  group-hover:stroke-white max-md:h-8"
+          className="h-8 w-8 stroke-black group-hover:stroke-white md:h-10  md:w-10"
           width="800px"
           height="800px"
           viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ const NavItem = ({ title, svg }) => {
     case "calculator": {
       svg = (
         <svg
-          className="h-10 w-10 stroke-black  group-hover:stroke-white max-md:h-8"
+          className="h-8 w-8 stroke-black group-hover:stroke-white md:h-10  md:w-10"
           width="800px"
           height="800px"
           viewBox="0 0 24 24"
@@ -102,7 +102,7 @@ const NavItem = ({ title, svg }) => {
     case "timer": {
       svg = (
         <svg
-          className="h-10 w-10 stroke-black  group-hover:stroke-white max-md:h-8"
+          className="h-8 w-8 stroke-black group-hover:stroke-white md:h-10  md:w-10"
           width="800px"
           height="800px"
           viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ const NavItem = ({ title, svg }) => {
     case "settings": {
       svg = (
         <svg
-          className="h-10 w-10 max-md:h-8 "
+          className="h-8 w-8 md:h-10 md:w-10"
           width="800px"
           height="800px"
           viewBox="0 0 192 192"
@@ -152,9 +152,9 @@ const NavItem = ({ title, svg }) => {
     }
   }
   return (
-    <div className="group flex flex-col items-center gap-2 rounded-lg p-4 hover:bg-sky-600 hover:text-white max-md:gap-1 max-md:p-1">
+    <div className="group flex flex-col items-center gap-1 rounded-lg p-1 hover:bg-sky-600 hover:text-white md:gap-2 md:p-3">
       {svg}
-      <h3 className="text-lg font-medium group-hover:inline-block max-md:hidden max-md:text-sm">
+      <h3 className="hidden text-sm font-medium group-hover:inline-block lg:inline-block lg:text-lg">
         {title}
       </h3>
     </div>
