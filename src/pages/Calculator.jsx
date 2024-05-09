@@ -3,10 +3,10 @@ import Header from "../components/Header.jsx";
 
 const Calculator = () => {
   return (
-    <div className="bg-black h-full w-full flex flex-col items-center pb-8">
+    <div className="flex h-full w-full flex-col items-center bg-black pb-40">
       <Header title="Calculator" />
       {/* TODO: Start making the main pages for the app */}
-      <div className="flex flex-col h-full w-full items-center justify-between py-8">
+      <div className="flex h-full w-full flex-col items-center justify-between py-8">
         <form className="flex flex-col gap-1" name="weightForm">
           <label className="text-white" htmlFor="desiredWeight">
             Desired Weight:
@@ -17,12 +17,12 @@ const Calculator = () => {
               placeholder="Enter your desired weight"
               name="desiredWeight"
               id="desiredWeight"
-              className="py-2 px-4 flex items-center justify-center text-center text-lg remove-arrow rounded-sm"
+              className="remove-arrow flex items-center justify-center rounded-sm px-4 py-2 text-center text-lg"
             />
             <button
               type="button"
               // TODO: Add a function that triggers "onPointerDown" that sends the desiredWeight to be displayed on screen both on text and on the barbell
-              className="rounded-sm border-none p-1 bg-sky-500 group hover:animate-[spin_300ms_ease] hover:bg-white"
+              className="group rounded-sm border-none bg-sky-500 p-1 hover:animate-[spin_300ms_ease] hover:bg-white"
             >
               <svg
                 className="h-9 w-9"
@@ -48,7 +48,7 @@ const Calculator = () => {
         {
           //TODO: Calculate "totalWeight" by adding up the weight of all the currently loaded plates + the weight of the barbell
         }
-        <h2 className="text-white text-2xl font-semibold">
+        <h2 className="text-2xl font-semibold text-white">
           totalWeight Kg loaded
         </h2>
       </div>

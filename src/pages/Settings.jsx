@@ -2,13 +2,13 @@ import Header from "../components/Header";
 
 const Settings = () => {
   return (
-    <div className="bg-black h-full w-full flex flex-col items-center pb-12">
+    <div className="flex h-full w-full flex-col items-center bg-black pb-12">
       <Header title="Settings" />
       {/* TODO: Start making the main pages for the app */}
-      <main className="flex flex-col w-full items-center gap-8 py-8 px-32">
+      <main className="flex w-full flex-col items-center gap-8 px-32 py-8">
         <div className="flex w-full items-center justify-between">
           <div className="flex flex-col gap-2">
-            <h3 className="text-white font-semibold text-xl">
+            <h3 className="text-xl font-semibold text-white">
               Set measure units
             </h3>
             <p className="text-white">

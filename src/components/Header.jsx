@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 const Header = ({ title }) => {
   return (
     // TODO: Find a way to make the Header stick to the top of the page and the Footer to the bottom
-    <div className="w-full py-6 bg-sky-500 flex justify-evenly">
-      <h1 className="text-white font-semibold text-4xl">{title}</h1>
+    <div className="fixed flex h-24 w-full items-center justify-around bg-sky-500 py-6">
+      <h1 className="text-4xl font-semibold text-white">{title}</h1>
     </div>
   );
 };

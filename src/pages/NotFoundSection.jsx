@@ -4,7 +4,7 @@ const NotFoundSection = () => {
   const error = useRouteError();
   console.error(error);
   return (
-    <div className="bg-black h-full w-full flex flex-col items-center pb-12">
+    <div className="flex h-full w-full flex-col items-center bg-black pb-12">
       <h1 className="">Error Not Found</h1>
       {/* TODO: Start making the main pages for the app */}
       <h2>Oops!</h2>
