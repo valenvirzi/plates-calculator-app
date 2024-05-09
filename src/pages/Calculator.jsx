@@ -3,12 +3,12 @@ import Header from "../components/Header.jsx";
 
 const Calculator = () => {
   return (
-    <div className="flex min-h-full w-full flex-col items-center bg-black pb-44">
+    <div className="flex min-h-screen w-full flex-col items-center bg-black">
       <Header title="Calculator" />
       {/* TODO: Start making the main pages for the app */}
-      <div className="flex h-full w-full flex-col items-center justify-between py-8">
+      <main className="flex h-screen w-full flex-col items-center justify-around pb-44 pt-24">
         <form className="flex flex-col gap-1" name="weightForm">
-          <label className="text-white" htmlFor="desiredWeight">
+          <label className="text-sm text-white" htmlFor="desiredWeight">
             Desired Weight:
           </label>
           <div className="flex items-center gap-3">
@@ -17,7 +17,7 @@ const Calculator = () => {
               placeholder="Enter your desired weight"
               name="desiredWeight"
               id="desiredWeight"
-              className="remove-arrow flex items-center justify-center rounded-sm px-4 py-2 text-center text-lg"
+              className="remove-arrow flex items-center justify-center rounded-sm px-2 py-1 text-center"
             />
             <button
               type="button"
@@ -25,7 +25,7 @@ const Calculator = () => {
               className="group rounded-sm border-none bg-sky-500 p-1 hover:animate-[spin_300ms_ease] hover:bg-white"
             >
               <svg
-                className="h-9 w-9"
+                className="h-6 w-6"
                 width="800px"
                 height="800px"
                 viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ const Calculator = () => {
         <h2 className="text-2xl font-semibold text-white">
           totalWeight Kg loaded
         </h2>
-      </div>
+      </main>
     </div>
   );
 };
