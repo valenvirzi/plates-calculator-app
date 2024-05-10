@@ -51,9 +51,7 @@ const Calculator = () => {
         {
           //TODO: Calculate "totalWeight" by adding up the weight of all the currently loaded plates + the weight of the barbell
         }
-        <h2 className="text-2xl font-semibold text-white">
-          totalWeight Kg loaded
-        </h2>
+        <h2 className="text-2xl font-semibold text-white">140Kg loaded</h2>
       </main>
     </div>
   );

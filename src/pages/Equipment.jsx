@@ -10,84 +10,84 @@ const Equipment = () => {
           <h2 className="text-3xl font-semibold">Available Plates</h2>
           <p className="">( Tap plates to edit )</p>
         </div>
-        <div className="grid w-2/4 grid-cols-3 place-content-center justify-items-center gap-3 gap-y-6 p-4 text-white max-lg:w-full">
+        <div className="grid w-full grid-cols-3 place-content-center justify-items-center gap-2 gap-y-5 p-4 text-white md:w-11/12 md:gap-3 md:gap-y-6 xl:w-1/2">
           {/* TODO: When the gap of the buttons collapses the sizes break, so i have to adjust properties if the screen is too small */}
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
           <button
             type="button"
-            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-6 md:min-w-32"
+            className="flex aspect-square flex-col items-center justify-around rounded-full bg-lime-600 p-5 md:p-6 lg:min-w-32"
           >
-            <h4 className="text-xl font-medium">50kg</h4>
-            <span className="">20 units</span>
+            <h4 className="text-lg font-medium md:text-xl">50kg</h4>
+            <span className="text-sm lg:text-base">20 units</span>
           </button>
         </div>
       </main>
