@@ -152,7 +152,7 @@ const NavItem = ({ title, svg }) => {
     }
   }
   return (
-    <div className="group flex flex-col items-center gap-1 rounded-lg p-1 hover:bg-sky-600 hover:text-white md:gap-2 md:p-3">
+    <div className="group flex flex-col items-center gap-1 rounded-lg p-1 hover:text-white md:gap-2 md:p-3">
       {svg}
       <h3 className="hidden text-sm font-medium group-hover:inline-block lg:inline-block lg:text-lg">
         {title}
