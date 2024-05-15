@@ -38,8 +38,8 @@ const Equipment = () => {
     <div className="flex min-h-screen w-full flex-col items-center bg-black">
       <Header title="Equipment" />
       {/* TODO: Start making the main pages for the app */}
-      <main className="mt-4 flex w-full flex-col items-center gap-4 pb-24 pt-20 md:pb-32 md:pt-24 lg:pb-36">
-        <div className="flex flex-col items-center gap-2 pt-4 text-white">
+      <main className="my-7 flex w-full flex-col items-center gap-4 pb-24 pt-20 md:pb-32 md:pt-24 lg:pb-36">
+        <div className="flex flex-col items-center gap-2 text-white">
           <h2 className="text-3xl font-semibold">Available Plates</h2>
           <p className="text-base">( Tap plates to edit )</p>
         </div>
