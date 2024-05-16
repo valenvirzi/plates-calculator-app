@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 
 const Settings = () => {
+  // TODO: Ir al último chat de ChatGPT e implementar los cambios sugeridos.
   return (
     <div className="flex min-h-screen w-full flex-col items-center bg-black">
       <Header title="Settings" />
